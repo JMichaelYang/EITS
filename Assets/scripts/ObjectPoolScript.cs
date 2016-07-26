@@ -8,7 +8,7 @@ public class ObjectPoolScript : MonoBehaviour
 
     public GameObject bullet;
 
-    public int defaultPooledAmount = 500;
+    public int defaultPooledAmount = 100;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +22,8 @@ public class ObjectPoolScript : MonoBehaviour
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	
 	}
 }
